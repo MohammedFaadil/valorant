@@ -1,0 +1,56 @@
+.btn{
+    padding: 5px;
+    margin: 5px;
+    width: 175px;
+}
+
+
+
+
+#id{
+    margin: 0;
+    padding: 0;
+}
+
+
+.mybutton1{
+    text-decoration: none;
+    color: #000000;
+}
+.mybutton2{
+    text-decoration: none;
+    color: #000000;
+}
+
+
+.mybutton1:hover{
+    color: white;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.mybutton2:hover{
+    color: white;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.valoimg{
+    padding-top: 20px;
+}
+
+
+.valovedio{
+    display: flex;
+    justify-content: center;
+}
+
+.play{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}

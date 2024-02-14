@@ -1,0 +1,71 @@
+
+
+
+
+
+#mybtn{
+    padding: 5px;
+    margin: 5px;
+    width: 175px;
+}
+
+#mybtns{
+    padding: 5px;
+    margin: 5px;
+    width: 175px;
+}
+
+
+#id{
+    margin: 0;
+    padding: 0;
+}
+
+.intro{
+    background-color: #D4E7C5;
+    margin: 0;
+    padding: 25px;
+    height: 100px;
+    text-align: center;
+}
+
+.mybutton1{
+    text-decoration: none;
+    color: #000000;
+}
+.mybutton2{
+    text-decoration: none;
+    color: #000000;
+}
+
+
+.mybutton1:hover{
+    color: white;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.mybutton2:hover{
+    color: white;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.videos{
+   margin: 20px;
+    
+}
+
+.videos{
+    background-color: rgb(233, 249, 249);
+    padding: 20px;
+    margin: 0;
+}
+
+.card-body{
+    background-color: rgb(243, 248, 246);
+}

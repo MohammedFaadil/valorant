@@ -1,0 +1,516 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SpringMint</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+    <a href=""></a>
+</head>
+<link rel="stylesheet" href="./captures.css">
+<body>
+    <nav class="navbar navbar-expand-lg" style="background-color: #99BC85;">
+        <div id="header" class="container-fluid">
+          <a class="navbar-brand" href="index.html">SpringMint</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="crosshairs.html" target="_blank">Crosshairs</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="skins.html" target="_blank">Skins</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="captures.html" target="_blank">Captures</a>
+              </li>
+
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  Products
+                </a>
+                <ul class="dropdown-menu">
+                  <li><a class="dropdown-item" href="#">Action</a></li>
+                  <li><a class="dropdown-item" href="#">Another action</a></li>
+                  <li><hr class="dropdown-divider"></li>
+                  <li><a class="dropdown-item" href="#">Something else here</a></li>
+                </ul>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link " aria-disabled="true"></a>
+              </li>
+            </ul>
+            <form class="d-flex" role="search">
+              <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+              
+
+              <a href="login.html" target="_blank" class="btn btn-outline-success mybutton1" id="mybtn">SignIn</a>
+              <a href="https://authenticate.riotgames.com/?client_id=trackernetwork&code_challenge=xoSVDdTHR5YepXDaxc1Z7jY7x6zsvCGDrByas6cjPnQ&method=riot_identity&platform=web&redirect_uri=https%3A%2F%2Fauth.riotgames.com%2Fauthorize%3Fclient_id%3Dtrackernetwork%26code_challenge%3DxoSVDdTHR5YepXDaxc1Z7jY7x6zsvCGDrByas6cjPnQ%26code_challenge_method%3DS256%26nonce%3D638412892981602325.ZTMzOWE2N2YtNzAyOC00MDZiLWJjYWYtMjEwYWQ1MTg1NjZmMWI1ZDgzODYtYzk2My00MzIyLThlZWItYmIzZjI5NGEzZjkw%26redirect_uri%3Dhttps%253A%252F%252Faccount.tracker.gg%252Fauth%252Fsignin-riot%26response_type%3Dcode%26scope%3Dopenid%2520profile%2520offline_access%26state%3DCfDJ8GdPyO1XnWFCl5y1KcTzfRhcHA4Q0e__jfEcG3XsVNpTREDibn6N7TyoPaWoQBUtBP3AxyrN0eTMp2P-FYTNi0luxh6Hh5K-ZKRLIqbN3QGLj_mVvXFJoGbYygAft5JLTCwPAVOtt-Rgz3W-DutCkb66e0B9LO4uh31M460VXgf3xFBOlm5vNneNloOAIcudOXcwbQtAJ5iNKGs3VbUhMEpncYMi8yjB44TJTT8kD4sSUBG6Mwkd2fqdIV0nk-ErIEHu2l5Y22SSN2E0nKN-K-nfykXfWrAeuwXNKa9j1ibdHR-E9l8tD-PGdUtfLAvTxNtU-IOlcoiUXa8myLFEFTrJdqWh8XDmOpdbki8evq2TXyJOtnPAOh7-kfCC9O3J-LeGyDgEt0-F83JmQrfbLbKXwF5rB8k_g695DStppkUdivR3Z9KMYX6N9oNPxyvSZcIhpl31JN5OxBmjtA065jYX343Jgm74c0OinLr0IvowWkwDbYzpVGsp13C-jRElFWW4kBCKBZW1OEicQeABsE0%26x-client-SKU%3DID_NET6_0%26x-client-ver%3D6.21.0.0" target="_blank"" target="_blank" class="btn btn-outline-success mybutton2" id="mybtns">Riot login</a>
+            </form>
+          </div>
+        </div>
+      </nav>
+
+      <div >
+        <h1 class="intro">These are some of the best valo-moments</h1>
+      </div>
+
+      <div class="videos">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6" class="valo1">
+                        <div class="card mb-4 box-shadow" >
+                            <!-- Replace the video.mp4 with the actual path to your video file -->
+                            <video controls class="card-img-top" style="height: 325px; width: 100%; display: flex;">
+                                <source src="https://res.cloudinary.com/dn8vbfkqr/video/upload/v1706105636/valo2_r1m9ms.mp4" type="video/mp4">
+                                Your browser does not support the video tag.
+                            </video>
+                            <div class="card-body">
+                                <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                                <div class="d-flex justify-content-between align-items-center">
+                                    <div class="btn-group">
+                                        <button type="button" class="btn btn-sm btn-outline-secondary">Like </button>
+                                        <button type="button" class="btn btn-sm btn-outline-secondary">Share</button>
+                                    </div>
+                                    <small class="text-muted">30 secs</small>
+                                </div>
+                            </div>
+                        </div>
+                </div>
+
+                
+
+                <div class="col-md-6" class="valo2">
+                    <div class="card mb-4 box-shadow" >
+                        <!-- Replace the video.mp4 with the actual path to your video file -->
+                        <video controls class="card-img-top" style="height: 325px; width: 100%; display: flex;">
+                            <source src="https://res.cloudinary.com/dn8vbfkqr/video/upload/v1706105654/valo1_fxaheh.mp4" type="video/mp4">
+                            Your browser does not support the video tag.
+                        </video>
+                        <div class="card-body">
+                            <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                            <div class="d-flex justify-content-between align-items-center">
+                                <div class="btn-group">
+                                    <button type="button" class="btn btn-sm btn-outline-secondary">Like </button>
+                                    <button type="button" class="btn btn-sm btn-outline-secondary">Share</button>
+                                </div>
+                                <small class="text-muted">30 secs</small>
+                            </div>
+                        </div>
+                    </div>
+            </div>
+
+            <div class="col-md-6" class="valo3">
+                <div class="card mb-4 box-shadow" >
+                    <!-- Replace the video.mp4 with the actual path to your video file -->
+                    <video controls class="card-img-top" style="height: 325px; width: 100%; display: flex;">
+                        <source src="https://res.cloudinary.com/dn8vbfkqr/video/upload/v1706105651/valo13_aorxde.mp4" type="video/mp4">
+                        Your browser does not support the video tag.
+                    </video>
+                    <div class="card-body">
+                        <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                        <div class="d-flex justify-content-between align-items-center">
+                            <div class="btn-group">
+                                <button type="button" class="btn btn-sm btn-outline-secondary">Like </button>
+                                <button type="button" class="btn btn-sm btn-outline-secondary">Share</button>
+                            </div>
+                            <small class="text-muted">30 secs</small>
+                        </div>
+                    </div>
+                </div>
+        </div>
+
+        <div class="col-md-6" class="valo4">
+            <div class="card mb-4 box-shadow" >
+                <!-- Replace the video.mp4 with the actual path to your video file -->
+                <video controls class="card-img-top" style="height: 325px; width: 100%; display: flex;">
+                    <source src="https://res.cloudinary.com/dn8vbfkqr/video/upload/v1706105655/valo3_ge2ei5.mp4" type="video/mp4">
+                    Your browser does not support the video tag.
+                </video>
+                <div class="card-body">
+                    <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                    <div class="d-flex justify-content-between align-items-center">
+                        <div class="btn-group">
+                            <button type="button" class="btn btn-sm btn-outline-secondary">Like </button>
+                            <button type="button" class="btn btn-sm btn-outline-secondary">Share</button>
+                        </div>
+                        <small class="text-muted">30 secs</small>
+                    </div>
+                </div>
+            </div>
+    </div>
+
+    <div class="col-md-6" class="valo5">
+        <div class="card mb-4 box-shadow" >
+            <!-- Replace the video.mp4 with the actual path to your video file -->
+            <video controls class="card-img-top" style="height: 325px; width: 100%; display: flex;">
+                <source src="https://res.cloudinary.com/dn8vbfkqr/video/upload/v1706105660/valo12_obwaos.mp4" type="video/mp4">
+                Your browser does not support the video tag.
+            </video>
+            <div class="card-body">
+                <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                <div class="d-flex justify-content-between align-items-center">
+                    <div class="btn-group">
+                        <button type="button" class="btn btn-sm btn-outline-secondary">Like </button>
+                        <button type="button" class="btn btn-sm btn-outline-secondary">Share</button>
+                    </div>
+                    <small class="text-muted">30 secs</small>
+                </div>
+            </div>
+        </div>
+</div>
+
+<div class="col-md-6" class="valo6">
+    <div class="card mb-4 box-shadow" >
+        <!-- Replace the video.mp4 with the actual path to your video file -->
+        <video controls class="card-img-top" style="height: 325px; width: 100%; display: flex;">
+            <source src="https://res.cloudinary.com/dn8vbfkqr/video/upload/v1706105666/valo7_jlmly1.mp4" type="video/mp4">
+            Your browser does not support the video tag.
+        </video>
+        <div class="card-body">
+            <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+            <div class="d-flex justify-content-between align-items-center">
+                <div class="btn-group">
+                    <button type="button" class="btn btn-sm btn-outline-secondary">Like </button>
+                    <button type="button" class="btn btn-sm btn-outline-secondary">Share</button>
+                </div>
+                <small class="text-muted">30 secs</small>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="col-md-6" class="valo7">
+    <div class="card mb-4 box-shadow" >
+        <!-- Replace the video.mp4 with the actual path to your video file -->
+        <video controls class="card-img-top" style="height: 325px; width: 100%; display: flex;">
+            <source src="https://res.cloudinary.com/dn8vbfkqr/video/upload/v1706105666/valo6_qoutt3.mp4" type="video/mp4">
+            Your browser does not support the video tag.
+        </video>
+        <div class="card-body">
+            <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+            <div class="d-flex justify-content-between align-items-center">
+                <div class="btn-group">
+                    <button type="button" class="btn btn-sm btn-outline-secondary">Like </button>
+                    <button type="button" class="btn btn-sm btn-outline-secondary">Share</button>
+                </div>
+                <small class="text-muted">30 secs</small>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="col-md-6" class="valo8">
+    <div class="card mb-4 box-shadow" >
+        <!-- Replace the video.mp4 with the actual path to your video file -->
+        <video controls class="card-img-top" style="height: 325px; width: 100%; display: flex;">
+            <source src="https://res.cloudinary.com/dn8vbfkqr/video/upload/v1706105667/valo4_syvsmu.mp4" type="video/mp4">
+            Your browser does not support the video tag.
+        </video>
+        <div class="card-body">
+            <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+            <div class="d-flex justify-content-between align-items-center">
+                <div class="btn-group">
+                    <button type="button" class="btn btn-sm btn-outline-secondary">Like </button>
+                    <button type="button" class="btn btn-sm btn-outline-secondary">Share</button>
+                </div>
+                <small class="text-muted">30 secs</small>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="col-md-6" class="valo9">
+    <div class="card mb-4 box-shadow" >
+        <!-- Replace the video.mp4 with the actual path to your video file -->
+        <video controls class="card-img-top" style="height: 325px; width: 100%; display: flex;">
+            <source src="https://res.cloudinary.com/dn8vbfkqr/video/upload/v1706105668/valo11_zyznvg.mp4" type="video/mp4">
+            Your browser does not support the video tag.
+        </video>
+        <div class="card-body">
+            <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+            <div class="d-flex justify-content-between align-items-center">
+                <div class="btn-group">
+                    <button type="button" class="btn btn-sm btn-outline-secondary">Like </button>
+                    <button type="button" class="btn btn-sm btn-outline-secondary">Share</button>
+                </div>
+                <small class="text-muted">30 secs</small>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="col-md-6" class="valo10">
+    <div class="card mb-4 box-shadow" >
+        <!-- Replace the video.mp4 with the actual path to your video file -->
+        <video controls class="card-img-top" style="height: 325px; width: 100%; display: flex;">
+            <source src="https://res.cloudinary.com/dn8vbfkqr/video/upload/v1706105675/valo10_c3zpsw.mp4" type="video/mp4">
+            Your browser does not support the video tag.
+        </video>
+        <div class="card-body">
+            <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+            <div class="d-flex justify-content-between align-items-center">
+                <div class="btn-group">
+                    <button type="button" class="btn btn-sm btn-outline-secondary">Like </button>
+                    <button type="button" class="btn btn-sm btn-outline-secondary">Share</button>
+                </div>
+                <small class="text-muted">30 secs</small>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="col-md-6" class="valo11">
+    <div class="card mb-4 box-shadow" >
+        <!-- Replace the video.mp4 with the actual path to your video file -->
+        <video controls class="card-img-top" style="height: 325px; width: 100%; display: flex;">
+            <source src="https://res.cloudinary.com/dn8vbfkqr/video/upload/v1706105674/valo8_s5wz94.mp4" type="video/mp4">
+            Your browser does not support the video tag.
+        </video>
+        <div class="card-body">
+            <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+            <div class="d-flex justify-content-between align-items-center">
+                <div class="btn-group">
+                    <button type="button" class="btn btn-sm btn-outline-secondary">Like </button>
+                    <button type="button" class="btn btn-sm btn-outline-secondary">Share</button>
+                </div>
+                <small class="text-muted">30 secs</small>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="col-md-6" class="valo12">
+    <div class="card mb-4 box-shadow" >
+        <!-- Replace the video.mp4 with the actual path to your video file -->
+        <video controls class="card-img-top" style="height: 325px; width: 100%; display: flex;">
+            <source src="https://res.cloudinary.com/dn8vbfkqr/video/upload/v1706105671/valo5_qi4ihq.mp4" type="video/mp4">
+            Your browser does not support the video tag.
+        </video>
+        <div class="card-body">
+            <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+            <div class="d-flex justify-content-between align-items-center">
+                <div class="btn-group">
+                    <button type="button" class="btn btn-sm btn-outline-secondary">Like </button>
+                    <button type="button" class="btn btn-sm btn-outline-secondary">Share</button>
+                </div>
+                <small class="text-muted">30 secs</small>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="col-md-6" class="valo13">
+    <div class="card mb-4 box-shadow" >
+        <!-- Replace the video.mp4 with the actual path to your video file -->
+        <video controls class="card-img-top" style="height: 325px; width: 100%; display: flex;">
+            <source src="https://res.cloudinary.com/dn8vbfkqr/video/upload/v1706105668/valo11_zyznvg.mp4" type="video/mp4">
+            Your browser does not support the video tag.
+        </video>
+        <div class="card-body">
+            <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+            <div class="d-flex justify-content-between align-items-center">
+                <div class="btn-group">
+                    <button type="button" class="btn btn-sm btn-outline-secondary">Like </button>
+                    <button type="button" class="btn btn-sm btn-outline-secondary">Share</button>
+                </div>
+                <small class="text-muted">30 secs</small>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="col-md-6" class="valo14">
+    <div class="card mb-4 box-shadow" >
+        <!-- Replace the video.mp4 with the actual path to your video file -->
+        <video controls class="card-img-top" style="height: 325px; width: 100%; display: flex;">
+            <source src="https://res.cloudinary.com/dn8vbfkqr/video/upload/v1706105674/valo8_s5wz94.mp4" type="video/mp4">
+            
+            Your browser does not support the video tag.
+        </video>
+        <div class="card-body">
+            <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+            <div class="d-flex justify-content-between align-items-center">
+                <div class="btn-group">
+                    <button type="button" class="btn btn-sm btn-outline-secondary">Like </button>
+                    <button type="button" class="btn btn-sm btn-outline-secondary">Share</button>
+                </div>
+                <small class="text-muted">30 secs</small>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="col-md-6" class="valo15">
+    <div class="card mb-4 box-shadow" >
+        <!-- Replace the video.mp4 with the actual path to your video file -->
+        <video controls class="card-img-top" style="height: 325px; width: 100%; display: flex;">
+            <source src="https://res.cloudinary.com/dn8vbfkqr/video/upload/v1706105667/valo4_syvsmu.mp4" type="video/mp4">
+            Your browser does not support the video tag.
+        </video>
+        <div class="card-body">
+            <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+            <div class="d-flex justify-content-between align-items-center">
+                <div class="btn-group">
+                    <button type="button" class="btn btn-sm btn-outline-secondary">Like </button>
+                    <button type="button" class="btn btn-sm btn-outline-secondary">Share</button>
+                </div>
+                <small class="text-muted">30 secs</small>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="col-md-6" class="valo16">
+    <div class="card mb-4 box-shadow" >
+        <!-- Replace the video.mp4 with the actual path to your video file -->
+        <video controls class="card-img-top" style="height: 325px; width: 100%; display: flex;">
+            <source src="https://res.cloudinary.com/dn8vbfkqr/video/upload/v1706105666/valo7_jlmly1.mp4" type="video/mp4">
+            Your browser does not support the video tag.
+        </video>
+        <div class="card-body">
+            <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+            <div class="d-flex justify-content-between align-items-center">
+                <div class="btn-group">
+                    <button type="button" class="btn btn-sm btn-outline-secondary">Like </button>
+                    <button type="button" class="btn btn-sm btn-outline-secondary">Share</button>
+                </div>
+                <small class="text-muted">30 secs</small>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="col-md-6" class="valo17">
+    <div class="card mb-4 box-shadow" >
+        <!-- Replace the video.mp4 with the actual path to your video file -->
+        <video controls class="card-img-top" style="height: 325px; width: 100%; display: flex;">
+            <source src="https://res.cloudinary.com/dn8vbfkqr/video/upload/v1706105666/valo6_qoutt3.mp4" type="video/mp4">
+            Your browser does not support the video tag.
+        </video>
+        <div class="card-body">
+            <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+            <div class="d-flex justify-content-between align-items-center">
+                <div class="btn-group">
+                    <button type="button" class="btn btn-sm btn-outline-secondary">Like </button>
+                    <button type="button" class="btn btn-sm btn-outline-secondary">Share</button>
+                </div>
+                <small class="text-muted">30 secs</small>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="col-md-6" class="valo18">
+    <div class="card mb-4 box-shadow" >
+        <!-- Replace the video.mp4 with the actual path to your video file -->
+        <video controls class="card-img-top" style="height: 325px; width: 100%; display: flex;">
+            <source src="https://res.cloudinary.com/dn8vbfkqr/video/upload/v1707914867/VALORANT_2024-02-07_20-52-45_naebqq.mp4" type="video/mp4">
+            Your browser does not support the video tag.
+        </video>
+        <div class="card-body">
+            <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+            <div class="d-flex justify-content-between align-items-center">
+                <div class="btn-group">
+                    <button type="button" class="btn btn-sm btn-outline-secondary">Like </button>
+                    <button type="button" class="btn btn-sm btn-outline-secondary">Share</button>
+                </div>
+                <small class="text-muted">30 secs</small>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="col-md-6" class="valo19">
+    <div class="card mb-4 box-shadow" >
+        <!-- Replace the video.mp4 with the actual path to your video file -->
+        <video controls class="card-img-top" style="height: 325px; width: 100%; display: flex;">
+            <source src="https://res.cloudinary.com/dn8vbfkqr/video/upload/v1707914873/VALORANT_2024-02-01_19-01-41_hzva9h.mp4" type="video/mp4">
+            Your browser does not support the video tag.
+        </video>
+        <div class="card-body">
+            <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+            <div class="d-flex justify-content-between align-items-center">
+                <div class="btn-group">
+                    <button type="button" class="btn btn-sm btn-outline-secondary">Like </button>
+                    <button type="button" class="btn btn-sm btn-outline-secondary">Share</button>
+                </div>
+                <small class="text-muted">30 secs</small>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="col-md-6" class="valo20">
+    <div class="card mb-4 box-shadow" >
+        <!-- Replace the video.mp4 with the actual path to your video file -->
+        <video controls class="card-img-top" style="height: 325px; width: 100%; display: flex;">
+            <source src="https://res.cloudinary.com/dn8vbfkqr/video/upload/v1707914871/VALORANT_2024-02-01_19-29-15_pno7jn.mp4" type="video/mp4">
+            Your browser does not support the video tag.
+        </video>
+        <div class="card-body">
+            <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+            <div class="d-flex justify-content-between align-items-center">
+                <div class="btn-group">
+                    <button type="button" class="btn btn-sm btn-outline-secondary">Like </button>
+                    <button type="button" class="btn btn-sm btn-outline-secondary">Share</button>
+                </div>
+                <small class="text-muted">30 secs</small>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+
+<div class="col-md-6" class="valo21">
+    <div class="card mb-4 box-shadow" >
+        <!-- Replace the video.mp4 with the actual path to your video file -->
+        <video controls class="card-img-top" style="height: 325px; width: 100%; display: flex;">
+            <source src="https://res.cloudinary.com/dn8vbfkqr/video/upload/v1707914867/VALORANT_2024-02-07_20-52-42_rvz5ya.mp4" type="video/mp4">
+            Your browser does not support the video tag.
+        </video>
+        <div class="card-body">
+            <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+            <div class="d-flex justify-content-between align-items-center">
+                <div class="btn-group">
+                    <button type="button" class="btn btn-sm btn-outline-secondary">Like </button>
+                    <button type="button" class="btn btn-sm btn-outline-secondary">Share</button>
+                </div>
+                <small class="text-muted">30 secs</small>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+<div class="col-md-6" class="valo22">
+    <div class="card mb-4 box-shadow" >
+        <!-- Replace the video.mp4 with the actual path to your video file -->
+        <video controls class="card-img-top" style="height: 325px; width: 100%; display: flex;">
+            <source src="https://res.cloudinary.com/dn8vbfkqr/video/upload/v1707914857/VALORANT_2024-02-07_21-46-51_lnbnjs.mp4" type="video/mp4">
+            Your browser does not support the video tag.
+        </video>
+        <div class="card-body">
+            <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+            <div class="d-flex justify-content-between align-items-center">
+                <div class="btn-group">
+                    <button type="button" class="btn btn-sm btn-outline-secondary">Like </button>
+                    <button type="button" class="btn btn-sm btn-outline-secondary">Share</button>
+                </div>
+                <small class="text-muted">30 secs</small>
+            </div>
+        </div>
+    </div>
+</div>
+                
+            </div>
+        </div>
+    </div>
+
+      
+</body>
+</html>
